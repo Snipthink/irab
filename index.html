@@ -1219,7 +1219,7 @@ Handling all the technical work and social media of Indian Kitchen & Bar.<p>
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    var name = 'Order Requested ';
+    var name = document.getElementById('form_name').value;
     var email = document.getElementById('email').value;
     var phone = document.getElementById('phone').value;
 
